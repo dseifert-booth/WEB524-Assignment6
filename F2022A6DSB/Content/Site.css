@@ -1,0 +1,103 @@
+﻿* {
+    /*background-color: #444;*/
+    color: #fff
+}
+
+body {
+    background-color: #444;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    width: 1420px;
+}
+
+.jumbotron {
+    background-color: #333;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+    border-right: 2px solid #FFF;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.dl-horizontal dd {
+    padding-top: 5px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#email-website {
+    width: 22%;
+}
+
+.navbar-inverse {
+    background-color: #a70e0e;
+}
+
+    .navbar-inverse .navbar-brand,
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ccc;
+    }
+
+a {
+    color: #56c2ff;
+}
+
+    a:hover, a:focus {
+        color: #6580ff;
+        text-decoration: underline;
+    }
+
+.btn-default {
+    background-color: #007fc7;
+    color: #FFF;
+    border-color: #363636;
+}
+
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default.focus {
+        color: #FFF;
+        background-color: #0097ed;
+        border-color: #484848;
+    }
+
+    .btn-default:active:hover {
+        color: #FFF;
+        background-color: #035c8f;
+        border-color: #242424;
+    }
+
+.form-control {
+    color: #000;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgb(27, 30, 31);
+}
+
+th.track {
+    text-align: center;
+}
+
+.table > tbody > tr > td {
+    border-top: none;
+}
